@@ -13,12 +13,13 @@ public class Figura
   public Figura()
   {
    area=0; 
-   }
-   public void calcularArea(){
+  }
+  public void calcularArea()
+  {
      System.out.println("no se como calcular area porque no se de que figura se trata");
-    }
-   public void imprimirArea()
-   {
+  }
+  public void imprimirArea()
+  {
     System.out.println("El area de la figura es:"+ area);
-    }
+  }
 }
